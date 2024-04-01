@@ -1,0 +1,78 @@
+.header
+{
+    background-image: url(https://interwork.co.at/photos/0123323302_5ef1fd2….webp);
+}
+
+.rot1
+{
+    background-color: #002147b6;
+    position: fixed;
+    left: -70px;
+    width: 570px;
+    top: -90px;
+    bottom: 20px;
+    transform: skew(33deg);
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.rot2
+{
+    background-color: #002147;
+    position: fixed;
+    left: 0px;
+    width: 30px;
+    top: 215px;
+    bottom: 20px;
+    transform: skew(33deg);
+}
+.toggel
+{
+    z-index: 2;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.toggol img
+{
+    width: 30px;
+}
+.rot1 .text .content 
+{
+    transform: skew(-33deg);
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.serviseList
+{
+    position: relative;
+    left: 10px;
+    /* top: 50px; */
+    width: 160px;
+    display: none;
+    transition: all 0.4s;
+    opacity: 0.6;
+}
+.hoveropacity .serviseList li
+{
+opacity: 0.3;
+transition: all 0.6;
+
+}
+.hoveropacity:hover .serviseList li
+{
+opacity: 1;
+}
+.hoveropacity:hover .serviseList
+{
+    /* top: 50px; */
+    display: block;
+    transform: translateY(100px);
+
+
+}
